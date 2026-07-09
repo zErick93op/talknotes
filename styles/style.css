@@ -293,3 +293,8 @@ header {
     font-size: .88rem;
     font-weight: bold;
 }
+    /*Section Why Choose*/
+.why-choose{
+    padding: 84px 36px;
+    background-color: #F9FAFF;
+}
