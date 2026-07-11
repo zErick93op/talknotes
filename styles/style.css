@@ -228,6 +228,18 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+}
+#audio { 
+    background-color: #E5E7EB;
+    margin: 0px 0px 32px;
+    border-radius: 16px;
+}
+.controls {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 .text-image {
     font-size: 1.3rem;
@@ -297,4 +309,187 @@ header {
 .why-choose{
     padding: 84px 36px;
     background-color: #F9FAFF;
+}
+.choose-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.choose-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pequeño-titulo {
+   color:#9CA3AF;
+   font-size: 1.2rem; 
+}
+.titulo-choose{
+    color: #374151;
+    font-size: 2rem ;
+}
+.grid-choose {
+    display: grid;
+    grid-template-columns: repeat(3, 317px);
+    grid-template-rows:repeat(2, 139px);
+    gap: 30px;
+}
+.badge-choose {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 7px;
+}
+.badge-choose h3 {
+    color:#000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.badge-choose p {
+    color: #6B7280;
+    font-size: .90rem;
+}
+.icon-grid-one {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-grid-one::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../src/lightbulb.svg");
+}
+.icon-grid-two {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-grid-two::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../src/pencil.svg");
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.icon-grid-three {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-grid-three::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../src/book-text.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon-grid-four {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-grid-four::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+
+    background: url("../src/micblue\ .svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-grid-five {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-grid-five::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../src/message-square.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon-grid-six {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-grid-six::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../src/graduation-cap.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.comentario-talknote {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.texto-coment-one {
+    color: #374151;
+    font-size: 1rem;
+}
+.texto-coment-two {
+    color: #9CA3AF;
+}
+.footer-choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.choose-comentarios {
+    width: 700px;
+    height: 746px;
+}
+.textos-comentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
 }

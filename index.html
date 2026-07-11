@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TalkNotes</title>
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asimovian&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>TalkNotes</title>
 </head>
 <body>
     <header>
@@ -70,9 +70,9 @@
                 <div class="image-hero">
                     <div class="contenido-reproductor">
                         <p class="text-image">Interactive demo</p>
-                        <div>
-                            <!-- AQUI PONDRE UN CUADRADRO CON LINEA AL MEDIO-->
-                         </div>
+                            <canvas id="audio" width="250px" height="93px">
+
+                            </canvas>
                         <p class="short-text">Limit: 01:00</p>
                         <p class="time-text">00:00</p>
                     </div>
@@ -95,54 +95,54 @@
         <section class="why-choose">
             <div class="choose-contenedor">
                 <div class="choose-titulo">
-                    <span>Why Choose TalkNotes</span>
-                    <h2>Work with AI by Your Side, Every Step of the Way</h2>
+                    <span class="pequeño-titulo">Why Choose TalkNotes</span>
+                    <h2 class="titulo-choose">Work with AI by Your Side, Every Step of the Way</h2>
                 </div>
                 <div class="grid-choose">
                     <article class="badge-choose">
-                        <h3>Save Time</h3>
+                        <h3 class="icon-grid-one">Save Time</h3>
                             <p>Focus on what matters. Let AI handle the busywork of organizing your notes so you can reclaim your time and dedicate it to high-impact tasks.</p>
                     </article>
                     <article class="badge-choose">
-                        <h3>Get More Done</h3>
+                        <h3 class="icon-grid-two">Get More Done</h3>
                             <p>Boost your productivity. Capture thoughts quickly, stay on top of your workload, and move through tasks with greater efficiency.</p>
                     </article>
                     <article class="badge-choose">
-                        <h3>Work Smart, Not Hard</h3>
+                        <h3 class="icon-grid-three">Work Smart, Not Hard</h3>
                             <p>Leverage AI for effortless organization. TalkNotes makes it easy to stay productive and efficient without the hassle of manual note-taking.</p>
                     </article>
                     <article class="badge-choose">
-                        <h3>Get Ahead Instead of left Behind</h3>
+                        <h3 class="icon-grid-four">Get Ahead Instead of left Behind</h3>
                             <p>Stay competitive in an AI-driven world. Using AI isn't optional — it's essential. Keep pace with modern tools to maintain your edge.</p>
                     </article>
                     <article class="badge-choose">
-                        <h3>Stay Organized</h3>
+                        <h3 class="icon-grid-five">Stay Organized</h3>
                             <p>Turn chaos into clarity. With customizable templates and automatic structuring, TalkNotes ensures that every thought and idea is right where you need it.</p>
                     </article>
                     <article class="badge-choose">
-                        <h3>Never Miss a Thing</h3>
+                        <h3 class="icon-grid-six">Never Miss a Thing</h3>
                             <p>Capture every idea, every detail. TalkNotes helps you avoid information overload by keeping all your thoughts organized and accessible whenever you need them.</p>
                     </article>
                 </div>
                 <div class="footer-choose">
                     <div class="CTA-choose">
-                        <a href=""></a>
+                        <a href="" class="cta-btn">Try TalkNotes free for 7 days</a>
                     </div>
                     <div class="choose-comentarios">
                         <div class="comentario-talknote"> <!--Usar esto como componente para los demas comentarios-->
                             <div class="image-comentario"> 
-                                <img src="../src/Ellipse 4.webp" alt=Foto Comentario">
+                                <img src="../src/Ellipse 4.webp" alt="Foto Comentario">
                             </div>
                             <div class="textos-comentario">
                                 <p class="texto-coment-one">“This app has great practical use. Whether you're brainstorming ideas for a book, processing your YouTube video, podcast, or TikTok outloud, this captured all of it and puts it into whatever format you want. SUPER clean and easy to use. The developer has been a great innovator & we're grateful for this service.”</p>
                                 <p class="texto-coment-two">- Rosales, review on Apple App Store</p>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div> 
                 </div>        
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
