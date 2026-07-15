@@ -305,6 +305,33 @@ header {
     color: #9CA3AF;
     font-size: .88rem;
     font-weight: bold;
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
+.icon-card-hero {
+    display: inline-flex;
+    height: 14px;
+    width: 14px;
+}
+.arrow-up {
+    display: block;
+    animation: flotar 1s ease-in-out infinite;
+    opacity: 60%;
+}
+.microphone-card {
+    animation: pulso 1.5s ease-in-out infinite;
+}
+@keyframes pulso {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
 .logos-hero{
     display: flex;
@@ -316,6 +343,8 @@ header {
 .logos {
     list-style: none;
     display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
