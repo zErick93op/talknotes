@@ -434,7 +434,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("../src/lightbulb.svg");
+    background-image: url("../src/clock.svg");
 }
 .icon-grid-two {
     display: inline-flex;
@@ -449,7 +449,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background: url("../src/pencil.svg");
+    background: url("../src/checklist.svg");
     justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
@@ -469,7 +469,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background: url("../src/book-text.svg");
+    background: url("../src/Brain.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -485,7 +485,7 @@ header {
     height: 18px;
     display: inline-flex;
 
-    background: url("../src/micblue\ .svg");
+    background: url("../src/cohete.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -504,7 +504,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background: url("../src/message-square.svg");
+    background: url("../src/Carpeta.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -522,7 +522,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background: url("../src/graduation-cap.svg");
+    background: url("../src/tablecheck.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -638,4 +638,112 @@ details[open] > summary {
     display: flex;
     flex-direction: column;
     gap: 90px;
+}
+.iconu-grid-one {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconu-grid-one::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../src/lightbulb.svg");
+}
+.iconu-grid-two {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconu-grid-two::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../src/pencil.svg");
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.iconu-grid-three {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconu-grid-three::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../src/book-text.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.iconu-grid-four {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconu-grid-four::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+
+    background: url("../src/micblue\ .svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.iconu-grid-five {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconu-grid-five::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../src/message-square.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.iconu-grid-six {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconu-grid-six::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../src/graduation-cap.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
