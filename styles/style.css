@@ -379,7 +379,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 90px;
 }
 .choose-titulo {
     display: flex;
@@ -548,7 +548,6 @@ header {
 }
 .choose-comentarios {
     width: 700px;
-    height: 746px;
 }
 .textos-comentario {
     display: flex;
@@ -556,4 +555,62 @@ header {
     justify-content: center;
     align-items: start;
     gap: 10px;
+}
+/* Section How it Works*/
+.how-works {
+    background-color: #EEF2FF;
+    width: 100%;
+    min-height: auto;
+    padding: 80px 36px;
+}
+.works-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+}
+.how-grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 94px;
+}
+.grilla-acoordeon {
+    width: 471px;
+}
+summary {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 59px;
+    display: flex;
+    align-items: center;
+}
+details {
+    border-bottom: 1px solid rgba(107, 114, 128, 0.1);
+    cursor: pointer;
+}
+details[open] > summary {
+    color: #4F46E5;
+}
+.content-accordeon {
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.cta-works {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.choose-comentariosworks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    width: 700px;
+
 }
