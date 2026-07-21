@@ -915,3 +915,73 @@ details[open] > summary {
     transform: translate(-50%, -50%);
     z-index: 2;
 }
+/*SECtion FAQ*/
+.section-faq {
+    width: 100%;
+    gap: 39px;
+    background-color: #F9FAFF;
+    padding: 96px 48px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.faq-container {
+    width: 650px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.accordeonfaq {
+    background-color: #FFFFFF;
+    padding: 16px 16px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
+    gap: 8px;
+}
+.icon-faq {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.accorderon-text {
+    font-size: .9rem;
+    color: #6B7280;
+    font-weight: 400;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, opacity 0.1s ease;  
+}
+.accorderon-text.active {
+    max-height: 220px;
+    display: block;
+    opacity: 1;
+}
+.accordeon-titulo {
+    color: #4B5563;
+    font-weight: bold;
+}
+.accordeon-titulo.active {
+    color: rgb(79, 70, 229)
+}
+.icon-faq.active {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+.titulo-faq{
+    color: #374151;
+    font-size: 2rem ;
+    font-weight: 500;
+}
