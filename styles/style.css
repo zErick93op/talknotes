@@ -612,6 +612,9 @@ header {
 .gif-works {
     width: 100%;
 }
+.gif-works img {
+    width: 100%;
+}
 summary {
     color: #000;
     font-size: 1.2rem;
@@ -822,7 +825,7 @@ details[open] > summary {
     grid-row: -2 ;
 }
 .grid-price-item {
-    width: 397px;
+    max-width: 397px;
     height: 515px;
     padding: 40px 32px;
     border-radius: 15px;
@@ -962,7 +965,7 @@ details[open] > summary {
     
 }
 .faq-container {
-    width: 650px;
+    max-width: 650px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -1033,7 +1036,7 @@ details[open] > summary {
     display: flex;
     background-color: #4F46E5;
     padding: 10px 10px;
-    width: 1000px;
+    width: 75%;
     height: auto;
     gap: 10px;
 }
@@ -1181,5 +1184,94 @@ details[open] > summary {
     }
     .pricing-contenedor {
         gap: 30px;
+    }
+    .choose-comentarios {
+        width: 100%;
+    }
+    .choose-comentariosworks{
+        width: 100%;
+    }
+    .uses-comentarios {
+        width: 100%;
+    }
+    .pricing-comentarios {
+        width: 100%;
+    }
+    .cta-container {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .banner-cta {
+        display: none;
+    }
+    .last-section {
+        padding: 96px 0px;
+    }
+    .cta-footer {
+        width: 100%;
+        gap: 30px;
+    }
+    .last-title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .cta-banner {
+        width: 100%;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+    }
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+    .footer-item {
+        align-items: center;
+    }
+    .contenedor-item2 {
+        align-items: center;
+    }
+    .contenedor-item3{
+        align-items: center;
+    }
+    .contenedor-item4 {
+        align-items: center;
+    }
+    .grid-price-item {
+        width: 350px;
+    }
+    .hero-wrapper {
+        gap: 30px;
+    }
+    .contenido-hero{
+        width: 100%;
+        height: auto;
+    }
+    .pais-hidden{
+        overflow: hidden;
+    }
+    .contenedor-textocentro {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .content-users::after {
+        content: "";
+        display: inline-block;
+        width: 73px;
+        height: 17px;
+        margin-left: 3px;
+        background-image: url(../src/star.svg);
+        background-repeat: repeat-x;
+        background-position: left center;
+        background-size: 15px 11px;
+    }
+    .navBar {
+        display: none;
+    }
+    .btn-header {
+        display: none;
     }
 }
